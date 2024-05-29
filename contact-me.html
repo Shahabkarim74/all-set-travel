@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <form id="ContactForm">
+        <h3>contact form</h3>
+        <input
+          type="text"
+          id="fname"
+          placeholder="name"
+          name="fname"
+          value=""
+        /><br />
+        <input
+          type="text"
+          id="lname"
+          placeholder="last name"
+          name="lname"
+          value=""
+        /><br /><br />
+
+        <input type="text" id="location" placeholder="Location" /><br />
+        <input type="text" id="zipcode" placeholder="Zipcode" /><br />
+        <textarea id="message" placeholder="Enter your message"></textarea
+        ><br />
+
+        <p id="p01"></p>
+
+        <button id="sub" type="button" onclick="myfn()">submit</button>
+      </form>
+    </div>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
